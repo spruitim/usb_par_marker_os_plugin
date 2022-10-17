@@ -1,0 +1,36 @@
+description: UsbParMarker plugin.
+version: 0.1
+author: "Iris Spruit"
+url: "https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Hardware/Markers%20and%20Events/UsbParMarker/"
+category: "Visual stimuli"
+date: "2022"
+controls:
+-
+    type: "combobox"
+    var: "com_port"
+    label: "Select option"
+    options:
+    - "COM1"
+    - "COM2"
+    - "COM3"
+    - "COM4"
+    - "COM5"
+    - "COM6"
+    - "COM7"
+    - "COM8"
+    - "COM9"
+    name: "com_port_widget"
+-
+    type: "combobox"
+    var: "action"
+    label: "Select option"
+    options:
+    - "initialize"
+    - "close"
+    - "send_marker"
+    name: "action_widget"
+-
+    type: "line_edit"
+    var: "marker_value"
+    label: "Enter marker value"
+    name: "marker_value_widget"
