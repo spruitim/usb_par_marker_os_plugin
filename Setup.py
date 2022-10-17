@@ -34,7 +34,7 @@ setup(
 	# module.
 	data_files=[
 		# First the target folder.
-		('share/opensesame_plugins/example_plugin',
+		('share/opensesame_plugins/usb_par_marker_plugin',
 		# Then a list of files that are copied into the target folder. Make sure
 		# that these files are also included by MANIFEST.in!
 		[
