@@ -16,7 +16,7 @@ setup(
 	description='Plugin for using the usb par marker in OpenSesame',
 	author='Iris Spruit',
 	author_email='i.m.spruit@fsw.leidenuniv.nl',
-	url='https://github.com/your/repository',
+	url='https://github.com/spruitim/usb_par_marker_os_plugin',
 	# Classifiers used by PyPi if you upload the plugin there
 	classifiers=[
 		'Intended Audience :: Science/Research',
@@ -38,10 +38,10 @@ setup(
 		# Then a list of files that are copied into the target folder. Make sure
 		# that these files are also included by MANIFEST.in!
 		[
-			'opensesame_plugins/example_plugin/example_plugin.md',
-			'opensesame_plugins/example_plugin/example_plugin.png',
-			'opensesame_plugins/example_plugin/example_plugin_large.png',
-			'opensesame_plugins/example_plugin/example_plugin.py',
+			'opensesame_plugins/example_plugin/usb_par_marker.md',
+			'opensesame_plugins/example_plugin/UsbParMar.png',
+			'opensesame_plugins/example_plugin/UsbParMar_large.png',
+			'opensesame_plugins/example_plugin/usb_par_marker_plugin2.py',
 			'opensesame_plugins/example_plugin/info.yaml',
 			]
 		)]
