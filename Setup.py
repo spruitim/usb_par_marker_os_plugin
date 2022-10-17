@@ -38,11 +38,11 @@ setup(
 		# Then a list of files that are copied into the target folder. Make sure
 		# that these files are also included by MANIFEST.in!
 		[
-			'opensesame_plugins/usb_par_marker_os_plugin/usb_par_marker.md',
-			'opensesame_plugins/usb_par_marker_os_plugin/UsbParMar.png',
-			'opensesame_plugins/usb_par_marker_os_plugin/UsbParMar_large.png',
-			'opensesame_plugins/usb_par_marker_os_plugin/usb_par_marker_plugin2.py',
-			'opensesame_plugins/usb_par_marker_os_plugin/info.yaml',
+			'usb_par_marker_os_plugin/usb_par_marker_plugin/usb_par_marker.md',
+			'usb_par_marker_os_plugin/usb_par_marker_plugin/UsbParMar.png',
+			'usb_par_marker_os_plugin/usb_par_marker_plugin/UsbParMar_large.png',
+			'usb_par_marker_os_plugin/usb_par_marker_plugin/usb_par_marker_plugin2.py',
+			'usb_par_marker_os_plugin/usb_par_marker_plugin/info.yaml',
 			]
 		)]
 	)
